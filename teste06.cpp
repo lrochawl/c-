@@ -1,4 +1,6 @@
-// operadores condicionais
+// operadores condicionais e operadores de comparação
+// == igual, > maior, < menor, >= igual, <= menor ou igual
+// != desigualdade ou diferente de de...
 #include <iostream>
 
 using namespace std;
