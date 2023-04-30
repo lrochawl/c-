@@ -1,4 +1,5 @@
 // Criando variaveis
+//tipos de dados, string, int, float, bool, char, double
 
 #include <iostream>
 
