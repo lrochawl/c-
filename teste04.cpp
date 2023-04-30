@@ -15,5 +15,7 @@ int main(){
     cout << n1 << endl;
     n1 *= 5;
     cout << n1 << endl;
+    resultado = (n1 + 10) - (n2 - n1); //precedencia de operadores
+    cout << resultado << endl;
     return 0;
 }
