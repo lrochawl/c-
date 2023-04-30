@@ -19,27 +19,28 @@ int main(){
     switch (op){
         case '+':
             result = num1 + num2;
-            cout << "Operação de soma identificada" << endl;
+            cout << "Operacao de soma identificada" << endl;
             cout << num1 << " + " << num2 << " = " << result;
             break;
         case '-':
             result = num1 - num2;
-            cout << "Operação de subtração identificada" << endl;
+            cout << "Operacao de subtração identificada" << endl;
             cout << num1 << " - " << num2 << " = " << result;
             break;
         case '*':
-            result = num1 * num2;
-            cout << "Operação de multiplicação identificada" << endl;
+            result = (float)num1 * num2;
+            cout << "Operacao de multiplicação identificada" << endl;
             cout << num1 << " * " << num2 << " = " << result;
             break;
         case '/':
-            result = num1 * num2;
-            cout << "Operação de divisão identificada" << endl;
+            result = (float)num1 / num2;
+            cout << "Operacao de divisão identificada" << endl;
             cout << num1 << " / " << num2 << " = " << result;
             break;
         default:
-            cout << "Operação não suportada";
+            cout << "Operacao não suportada";
+            break;
     }
-
+cin >> num1;
     return 0;
 }
